@@ -1,15 +1,15 @@
-import gamestackTexture2Large from 'assets/gamestack-list-large.jpg';
-import gamestackTexture2Placeholder from 'assets/gamestack-list-placeholder.jpg';
-import gamestackTexture2 from 'assets/gamestack-list.jpg';
-import gamestackTextureLarge from 'assets/gamestack-login-large.jpg';
-import gamestackTexturePlaceholder from 'assets/gamestack-login-placeholder.jpg';
-import gamestackTexture from 'assets/gamestack-login.jpg';
-import sliceTextureLarge from 'assets/slice-app-large.jpg';
-import sliceTexturePlaceholder from 'assets/slice-app-placeholder.jpg';
-import sliceTexture from 'assets/slice-app.jpg';
-import sprTextureLarge from 'assets/spr-lesson-builder-dark-large.jpg';
-import sprTexturePlaceholder from 'assets/spr-lesson-builder-dark-placeholder.jpg';
-import sprTexture from 'assets/spr-lesson-builder-dark.jpg';
+import experiwear2Large from 'assets/experiwear2-large.jpg';
+import experiwear2Placeholder from 'assets/experiwear2-placeholder.jpg';
+import experiwear2 from 'assets/experiwear2.jpg';
+import experiwearLarge from 'assets/experiwear-large.jpg';
+import experiwearPlaceholder from 'assets/experiwear-placeholder.jpg';
+import experiwear from 'assets/experiwear.jpg';
+import sanguineLarge from 'assets/sanguine-large.jpg';
+import sanguinePlaceholder from 'assets/sanguine-placeholder.jpg';
+import sanguine from 'assets/sanguine.jpg';
+import weaveTextureLarge from 'assets/weave-dark-large.jpg';
+import weaveTexturePlaceholder from 'assets/weave-dark-placeholder.jpg';
+import weaveTexture from 'assets/weave-dark.jpg';
 import { Footer } from 'components/Footer';
 import { Meta } from 'components/Meta';
 import { Intro } from 'layouts/Home/Intro';
@@ -83,17 +83,17 @@ export const Home = () => {
         sectionRef={projectOne}
         visible={visibleSections.includes(projectOne.current)}
         index={1}
-        title="Designing the future of education"
-        description="Designing a platform to help educators build better online courseware"
-        buttonText="View project"
-        buttonLink="/projects/smart-sparrow"
+        title="Weave"
+        description="Weave is a next generation yield farming platform"
+        buttonText="View website"
+        buttonLink="/projects/weave"
         model={{
           type: 'laptop',
-          alt: 'Smart Sparrow lesson builder',
+          alt: 'Weave',
           textures: [
             {
-              srcSet: [sprTexture, sprTextureLarge],
-              placeholder: sprTexturePlaceholder,
+              srcSet: [weaveTexture, weaveTextureLarge],
+              placeholder: weaveTexturePlaceholder,
             },
           ],
         }}
@@ -104,21 +104,21 @@ export const Home = () => {
         sectionRef={projectTwo}
         visible={visibleSections.includes(projectTwo.current)}
         index={2}
-        title="Video game progress tracking"
-        description="Design and development for a video game tracking app built in React Native"
+        title="Experiwear"
+        description="Experiwear line of smartband products was created to deliver frictionless experiences that drive business and venue value while creating memorable user experiences."
         buttonText="View website"
-        buttonLink="https://gamestack.hamishw.com"
+        buttonLink="/projects/experiwear"
         model={{
           type: 'phone',
-          alt: 'App login screen',
+          alt: 'Experiwear',
           textures: [
             {
-              srcSet: [gamestackTexture, gamestackTextureLarge],
-              placeholder: gamestackTexturePlaceholder,
+              srcSet: [experiwear, experiwearLarge],
+              placeholder: experiwearPlaceholder,
             },
             {
-              srcSet: [gamestackTexture2, gamestackTexture2Large],
-              placeholder: gamestackTexture2Placeholder,
+              srcSet: [experiwear2, experiwear2Large],
+              placeholder: experiwear2Placeholder,
             },
           ],
         }}
@@ -128,17 +128,17 @@ export const Home = () => {
         sectionRef={projectThree}
         visible={visibleSections.includes(projectThree.current)}
         index={3}
-        title="Biomedical image collaboration"
-        description="Increasing the amount of collaboration in Slice, an app for biomedical imaging"
+        title="Sanguine"
+        description="Sanguine is a London-based full-service healthcare advertising agency."
         buttonText="View project"
-        buttonLink="/projects/slice"
+        buttonLink="/projects/sanguine"
         model={{
           type: 'laptop',
-          alt: 'Annotating a biomedical image in the Slice app',
+          alt: 'Sanguine',
           textures: [
             {
-              srcSet: [sliceTexture, sliceTextureLarge],
-              placeholder: sliceTexturePlaceholder,
+              srcSet: [sanguine, sanguineLarge],
+              placeholder: sanguinePlaceholder,
             },
           ],
         }}
