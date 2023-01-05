@@ -74,27 +74,27 @@
 .title {
   display: flex;
   flex-direction: column;
-  font-size: calc((140 / 16) * 1rem);
+  font-size: calc((180 / 32) * 1rem);
   letter-spacing: -0.005em;
 
   @media (--mediaDesktop) {
-    font-size: calc((120 / 16) * 1rem);
+    font-size: calc((140 / 32) * 1rem);
   }
 
   @media (--mediaLaptop) {
-    font-size: calc((100 / 16) * 1rem);
+    font-size: calc((120 / 32) * 1rem);
   }
 
   @media (max-width: 860px) {
-    font-size: calc((80 / 16) * 1rem);
+    font-size: calc((100 / 32) * 1rem);
   }
 
   @media (--mediaMobile) {
-    font-size: calc((56 / 16) * 1rem);
+    font-size: calc((76 / 32) * 1rem);
   }
 
   @media (--mediaMobileS) {
-    font-size: calc((42 / 16) * 1rem);
+    font-size: calc((62 / 32) * 1rem);
   }
 }
 
@@ -103,7 +103,7 @@
   flex-direction: row;
   align-items: center;
   position: relative;
-
+  padding-bottom: 1rem;
   &[data-hidden='true'] {
     opacity: 0;
   }
@@ -206,7 +206,7 @@
   content: '';
   height: 2px;
   background: rgb(var(--rgbText) / 0.3);
-  width: 120%;
+  flex-grow: 1;
   display: flex;
   margin-left: 20px;
   animation-duration: 0.8s;

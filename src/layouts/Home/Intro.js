@@ -67,7 +67,7 @@ export function Intro({ id, sectionRef, disciplines, scrollIndicatorHidden, ...r
               <h1 className={styles.name} data-visible={visible} id={titleId}>
                 <DecoderText text="Alexandre Andre" delay={300} />
               </h1>
-              <Heading level={0} as="h2" className={styles.title}>
+              <Heading level={2} as="h2" className={styles.title}>
                 <VisuallyHidden className={styles.label}>
                   {`Designer + ${introLabel}`}
                 </VisuallyHidden>
@@ -77,7 +77,7 @@ export function Intro({ id, sectionRef, disciplines, scrollIndicatorHidden, ...r
                     data-status={status}
                     style={cssProps({ delay: tokens.base.durationXS })}
                   >
-                    Designer
+                    Front End
                   </span>
                   <span className={styles.line} data-status={status} />
                 </span>
