@@ -1,12 +1,9 @@
 import backgroundSprLarge from 'assets/spr-background-large.jpg';
 import backgroundSprPlaceholder from 'assets/spr-background-placeholder.jpg';
 import backgroundSpr from 'assets/spr-background.jpg';
-import imageWeaveDarkLarge from 'assets/weave-dark-large.jpg';
-import imageWeaveDarkPlaceholder from 'assets/weave-dark-placeholder.jpg';
-import imageWeaveDark from 'assets/weave-dark.jpg';
-import imageWeaveLightLarge from 'assets/weave-light-large.jpg';
-import imageWeaveLightPlaceholder from 'assets/weave-light-placeholder.jpg';
-import imageWeaveLight from 'assets/weave-light.jpg';
+import imageSanguineDarkLarge from 'assets/sanguine-large.jpg';
+import imageSanguineDarkPlaceholder from 'assets/sanguine-placeholder.jpg';
+import imageSanguineDark from 'assets/sanguine.jpg';
 import { Footer } from 'components/Footer';
 import { Meta } from 'components/Meta';
 import { useTheme } from 'components/ThemeProvider';
@@ -58,14 +55,8 @@ export const Sanguine = () => {
             <ProjectImage
               raised
               key={themeId}
-              srcSet={
-                isDark
-                  ? [imageWeaveDark, imageWeaveDarkLarge]
-                  : [imageWeaveLight, imageWeaveLightLarge]
-              }
-              placeholder={
-                isDark ? imageWeaveDarkPlaceholder : imageWeaveLightPlaceholder
-              }
+              srcSet={[imageSanguineDark, imageSanguineDarkLarge]}
+              placeholder={imageSanguineDarkPlaceholder}
               sizes={`(max-width: ${media.mobile}px) 100vw, (max-width: ${media.tablet}px) 800px, 1000px`}
               alt="The aero lesson builder app dragging an audio component into a screen about plant cells."
             />
