@@ -7,10 +7,10 @@ export const navLinks = [
     label: 'Details',
     pathname: '/#details',
   },
-  {
-    label: 'Experience',
-    pathname: '/experience',
-  },
+  // {
+  //   label: 'Experience',
+  //   pathname: '/experience',
+  // },
   {
     label: 'Contact',
     pathname: '/contact',
