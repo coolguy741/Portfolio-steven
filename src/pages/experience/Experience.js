@@ -14,7 +14,7 @@ import RouterLink from 'next/link';
 import { useState, useEffect } from 'react';
 import { formatDate } from 'utils/date';
 import { classes, cssProps } from 'utils/style';
-import styles from './Articles.module.css';
+import styles from './Experience.module.css';
 
 const ArticlesPost = ({
   slug,
@@ -33,7 +33,7 @@ const ArticlesPost = ({
   useEffect(() => {
     setDateTime(formatDate(date));
   }, [date, dateTime]);
-  
+
   const handleMouseEnter = () => {
     setHovered(true);
   };
@@ -141,7 +141,7 @@ const SkeletonPost = ({ index }) => {
   );
 };
 
-export const Articles = ({ posts, featured }) => {
+export const Experience = ({ posts, featured }) => {
   const { width } = useWindowSize();
   const singleColumnWidth = 1190;
   const isSingleColumn = width <= singleColumnWidth;
