@@ -16,7 +16,7 @@ export const navLinks = [
 export const socialLinks = [
   {
     label: 'LinkedIn',
-    url: 'https://twitter.com/hamishMW',
+    url: 'https://www.linkedin.com/in/alexandre915820/',
     icon: 'linkedin',
   },
   {
