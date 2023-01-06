@@ -19,12 +19,12 @@ const ProfileText = ({ visible, titleId }) => (
       <DecoderText text="Hi there" start={visible} delay={500} />
     </Heading>
     <Text className={styles.description} data-visible={visible} size="l" as="p">
-      I’m Alexandre Andre. I am a web @ blockchain developer with 7+ years of experience.
+      I am Alexandre Andre. I am a web @ blockchain developer with 7+ years of experience.
       I've worked for several companies:{' '}
       <Link href="https://weave.financial/">Weave</Link>,{' '}
       <Link href="https://voxsync.com/">Voxsync</Link>,{' '}
       <Link href="https://www.chicmic.in/">Chicmic</Link> and{' '}
-      <Link href="https://sanguineagency.com/">Sanguine</Link>. And I've built many
+      <Link href="https://sanguineagency.com/">Sanguine</Link>. And I have built many
       websites.
     </Text>
     <Text className={styles.description} data-visible={visible} size="l" as="p">
