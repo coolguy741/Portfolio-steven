@@ -65,7 +65,7 @@ const ArticlesPost = ({
           />
         </div>
       )}
-      <RouterLink href={`/articles/${slug}`} scroll={false}>
+      <RouterLink href={`/experience/${slug}`} scroll={false}>
         <a
           className={styles.postLink}
           onMouseEnter={handleMouseEnter}
@@ -149,7 +149,7 @@ export const Experience = ({ posts, featured }) => {
   const postsHeader = (
     <header className={styles.header}>
       <Heading className={styles.heading} level={5} as="h1">
-        <DecoderText text="Latest articles" />
+        <DecoderText text="Experience" />
       </Heading>
       <Barcode />
     </header>
