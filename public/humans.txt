@@ -10,7 +10,7 @@ _______________________________________________________________________________
 
 DESIGNER
 
-Alexandre Andre
+Mateja Gegic
 Hand crafted design & web development
 
 Design tools:
