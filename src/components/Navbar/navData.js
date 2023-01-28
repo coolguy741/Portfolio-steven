@@ -31,7 +31,7 @@ export const socialLinks = [
   },
   {
     label: 'Email',
-    url: 'mailto:forest915820@gmail.com',
+    url: 'mailto:matejag048@gmail.com',
     icon: 'email',
   },
 ];
