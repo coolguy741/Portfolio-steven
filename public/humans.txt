@@ -34,3 +34,12 @@ FONTS
 
 Gotham
 Hiragino Kaku Gothic
+
+_______________________________________________________________________________
+
+Skills 
+
+Front End: React.js, Svelte.js, Ember.js, Angular.js, Vue.js, JavaScript, TypeScript, PHP
+Back End: Nest.js, Laravel, Express.js
+Blockchain: Solidity
+
