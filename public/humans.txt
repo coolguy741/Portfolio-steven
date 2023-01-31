@@ -41,5 +41,5 @@ Skills
 
 Front End: React.js, Svelte.js, Ember.js, Angular.js, Vue.js, JavaScript, TypeScript, PHP
 Back End: Nest.js, Laravel, Express.js
-Blockchain: Solidity
+Blockchain: Solidity, Web3.js, GraphQL, Remix
 

@@ -16,17 +16,17 @@ export const navLinks = [
 export const socialLinks = [
   {
     label: 'LinkedIn',
-    url: 'https://www.linkedin.com/in/alexandre915820/',
+    url: 'https://www.linkedin.com/in/mateja-gegic/',
     icon: 'linkedin',
   },
   {
     label: 'Github',
-    url: 'https://github.com/devofficer',
+    url: 'https://github.com/SmartDeveloper741',
     icon: 'github',
   },
   {
     label: 'Telegram',
-    url: 'https://t.me/Alexandre915820',
+    url: 'https://t.me/SmartDeveloper741',
     icon: 'telegram',
   },
   {
