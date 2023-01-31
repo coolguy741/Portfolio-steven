@@ -10,6 +10,9 @@ import sanguine from 'assets/sanguine.jpg';
 import weaveTextureLarge from 'assets/weave-dark-large.jpg';
 import weaveTexturePlaceholder from 'assets/weave-dark-placeholder.jpg';
 import weaveTexture from 'assets/weave-dark.jpg';
+import cryptoRefillsTextureLarge from 'assets/cryptorefills-large.PNG';
+import cryptoRefillsTexturePlaceholder from 'assets/cryptorefills-placeholder.PNG';
+import cryptoRefillsTexture from 'assets/cryptorefills.PNG';
 import { Footer } from 'components/Footer';
 import { Meta } from 'components/Meta';
 import { Intro } from 'layouts/Home/Intro';
@@ -27,10 +30,11 @@ export const Home = () => {
   const projectOne = useRef();
   const projectTwo = useRef();
   const projectThree = useRef();
+  const projectFour = useRef();
   const details = useRef();
 
   useEffect(() => {
-    const sections = [intro, projectOne, projectTwo, projectThree, details];
+    const sections = [intro, projectOne, projectTwo, projectThree, projectFour, details];
 
     const sectionObserver = new IntersectionObserver(
       (entries, observer) => {
@@ -138,6 +142,26 @@ export const Home = () => {
             {
               srcSet: [sanguine, sanguineLarge],
               placeholder: sanguinePlaceholder,
+            },
+          ],
+        }}
+      />
+      <ProjectSummary
+        id="project-4"
+        sectionRef={projectFour}
+        visible={visibleSections.includes(projectFour.current)}
+        index={4}
+        title="CryptoRefills"
+        description="CryptoRefills is a platform that allows users to buy prepaid mobile phone top-ups, game credits, and other digital products using cryptocurrency"
+        buttonText="View website"
+        buttonLink="/projects/cryptoRefills"
+        model={{
+          type: 'laptop',
+          alt: 'CryptoRefills',
+          textures: [
+            {
+              srcSet: [cryptoRefillsTexture, cryptoRefillsTextureLarge],
+              placeholder: cryptoRefillsTexturePlaceholder,
             },
           ],
         }}
