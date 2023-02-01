@@ -21,7 +21,7 @@ export const socialLinks = [
   },
   {
     label: 'Github',
-    url: 'https://github.com/SmartDeveloper741',
+    url: 'https://github.com/devofficer',
     icon: 'github',
   },
   {
