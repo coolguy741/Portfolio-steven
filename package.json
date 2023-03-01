@@ -2,9 +2,9 @@
   "name": "portfolio",
   "version": "1.0.0",
   "homepage": "https://hamishw.com",
-  "description": "Portfolio site for Mateja Gegic",
+  "description": "Portfolio site for James Marston",
   "repository": "https://github.com/HamishMW/portfolio.git",
-  "author": "Mateja Gegic <hello@hamishw.com>",
+  "author": "James Marston <hello@hamishw.com>",
   "devDependencies": {
     "@mapbox/rehype-prism": "^0.8.0",
     "@storybook/addon-a11y": "^6.5.10",
@@ -48,7 +48,7 @@
     "three-stdlib": "^2.18.1"
   },
   "scripts": {
-    "dev": "next dev",
+    "dev": "next dev -p 3002",
     "build": "next build && next export -o build/",
     "build:storybook": "build-storybook -o build-storybook && node scripts/draco-storybook",
     "deploy": "aws s3 sync --delete build/ s3://hamish-portfolio-site",

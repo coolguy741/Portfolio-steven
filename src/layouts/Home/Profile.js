@@ -19,8 +19,8 @@ const ProfileText = ({ visible, titleId }) => (
       <DecoderText text="Hi there" start={visible} delay={500} />
     </Heading>
     <Text className={styles.description} data-visible={visible} size="l" as="p">
-      I am Mateja Gegic. I am a web @ blockchain developer with 7+ years of experience.
-      I have worked for several companies:{' '}
+      I am James Marston. I am a web @ blockchain developer with 7+ years of experience. I
+      have worked for several companies:{' '}
       <Link href="https://weave.financial/">Weave</Link>,{' '}
       <Link href="https://voxsync.com/">Voxsync</Link>,{' '}
       <Link href="https://www.chicmic.in/">Chicmic</Link> and{' '}
