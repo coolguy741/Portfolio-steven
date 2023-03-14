@@ -21,12 +21,12 @@ export const socialLinks = [
   },
   {
     label: 'Github',
-    url: 'https://github.com/devofficer',
+    url: 'https://github.com/coolguy741',
     icon: 'github',
   },
   {
     label: 'Telegram',
-    url: 'https://t.me/SmartDeveloper741',
+    url: 'https://t.me/coolguy048',
     icon: 'telegram',
   },
   {
