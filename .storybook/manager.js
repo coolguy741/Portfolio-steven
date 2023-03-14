@@ -5,7 +5,7 @@ addons.setConfig({
   theme: {
     ...themes.dark,
     brandImage: 'https://hamishw.com/icon.svg',
-    brandTitle: 'James Marston Components',
+    brandTitle: 'Mateja Gegic Components',
     brandUrl: 'https://hamishw.com',
   },
 });

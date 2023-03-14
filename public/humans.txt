@@ -10,7 +10,7 @@ _______________________________________________________________________________
 
 DESIGNER
 
-James Marston
+Mateja Gegic
 Hand crafted design & web development
 
 Design tools:
