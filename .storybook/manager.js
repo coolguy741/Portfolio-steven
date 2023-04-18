@@ -5,7 +5,7 @@ addons.setConfig({
   theme: {
     ...themes.dark,
     brandImage: 'https://hamishw.com/icon.svg',
-    brandTitle: 'Mateja Gegic Components',
+    brandTitle: 'Steve L Montoya Components',
     brandUrl: 'https://hamishw.com',
   },
 });

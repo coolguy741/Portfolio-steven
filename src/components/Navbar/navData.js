@@ -16,7 +16,7 @@ export const navLinks = [
 export const socialLinks = [
   {
     label: 'LinkedIn',
-    url: 'https://www.linkedin.com/in/mateja-gegic/',
+    url: 'https://www.linkedin.com/in/steven-l-montoya-002980272/',
     icon: 'linkedin',
   },
   {
@@ -26,12 +26,12 @@ export const socialLinks = [
   },
   {
     label: 'Telegram',
-    url: 'https://t.me/coolguy048',
+    url: '',
     icon: 'telegram',
   },
   {
     label: 'Email',
-    url: 'mailto:matejag048@gmail.com',
+    url: 'mailto: webreplies2022@gmail.com',
     icon: 'email',
   },
 ];
