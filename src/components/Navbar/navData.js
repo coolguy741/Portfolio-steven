@@ -16,7 +16,7 @@ export const navLinks = [
 export const socialLinks = [
   {
     label: 'LinkedIn',
-    url: 'https://www.linkedin.com/in/steven-l-montoya-002980272/',
+    url: 'https://www.linkedin.com/in/steven-l-montoya/',
     icon: 'linkedin',
   },
   {
@@ -26,7 +26,7 @@ export const socialLinks = [
   },
   {
     label: 'Telegram',
-    url: '',
+    url: 'https://t.me/coolguy048',
     icon: 'telegram',
   },
   {
