@@ -19,20 +19,20 @@ const ProfileText = ({ visible, titleId }) => (
       <DecoderText text="Hi there" start={visible} delay={500} />
     </Heading>
     <Text className={styles.description} data-visible={visible} size="l" as="p">
-      I am Steve L Montoya. I am a web @ blockchain developer with 10+ years of
-      experience. I have worked for several companies:{' '}
-      <Link href="https://weave.financial/">Weave</Link>,{' '}
-      <Link href="https://voxsync.com/">Voxsync</Link>,{' '}
-      <Link href="https://www.chicmic.in/">Chicmic</Link> and{' '}
-      <Link href="https://sanguineagency.com/">Sanguine</Link>. And I have built many
-      websites.
+      I am Steve L Montoya. I am a full stack developer mainly focused on front end
+      development. I have worked for several companies:{' '}
+      <Link href="http://www.groovejones.com">Groove Jones</Link>,{' '}
+      <Link href="https://andersenlab.com/">Andersen Lab</Link>,{' '}
+      <Link href="http://www.creationagency.com">Creation Agency</Link> and{' '}
+      <Link href="http://nus.edu.sg">National University of Singapore</Link>. And I have
+      built many websites.
     </Text>
     <Text className={styles.description} data-visible={visible} size="l" as="p">
       I always put credit first on my assignments and strive to become a world-class
       developer, and it is my dream to become the best developer.
     </Text>
     <Text className={styles.description} data-visible={visible} size="l" as="p">
-      I like team spirit Sports, especially football.
+      I like team spirit Sports, especially soceer.
     </Text>
   </Fragment>
 );

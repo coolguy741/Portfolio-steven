@@ -26,7 +26,7 @@ export const socialLinks = [
   },
   {
     label: 'Telegram',
-    url: 'https://t.me/coolguy048',
+    url: 'https://t.me/coolguy774',
     icon: 'telegram',
   },
   {
