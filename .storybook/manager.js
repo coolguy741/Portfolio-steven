@@ -5,7 +5,7 @@ addons.setConfig({
   theme: {
     ...themes.dark,
     brandImage: 'https://hamishw.com/icon.svg',
-    brandTitle: 'Steve L Montoya Components',
+    brandTitle: 'Steven L Montoya Components',
     brandUrl: 'https://hamishw.com',
   },
 });

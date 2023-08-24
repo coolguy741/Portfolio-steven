@@ -19,7 +19,7 @@ const ProfileText = ({ visible, titleId }) => (
       <DecoderText text="Hi there" start={visible} delay={500} />
     </Heading>
     <Text className={styles.description} data-visible={visible} size="l" as="p">
-      I am Steve L Montoya. I am a full stack developer mainly focused on front end
+      I am Steven L Montoya. I am a full stack developer mainly focused on front end
       development. I have worked for several companies:{' '}
       <Link href="http://www.groovejones.com">Groove Jones</Link>,{' '}
       <Link href="https://andersenlab.com/">Andersen Lab</Link>,{' '}

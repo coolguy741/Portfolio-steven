@@ -2,9 +2,9 @@
   "name": "portfolio",
   "version": "1.0.0",
   "homepage": "https://hamishw.com",
-  "description": "Portfolio site for Steve L Montoya",
+  "description": "Portfolio site for Steven L Montoya",
   "repository": "https://github.com/HamishMW/portfolio.git",
-  "author": "Steve L Montoya <hello@hamishw.com>",
+  "author": "Steven L Montoya <hello@hamishw.com>",
   "devDependencies": {
     "@mapbox/rehype-prism": "^0.8.0",
     "@storybook/addon-a11y": "^6.5.10",
