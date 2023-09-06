@@ -4,9 +4,9 @@ import experiwear2 from 'assets/experiwear2.jpg';
 import experiwearLarge from 'assets/experiwear-large.jpg';
 import experiwearPlaceholder from 'assets/experiwear-placeholder.jpg';
 import experiwear from 'assets/experiwear.jpg';
-import sanguineLarge from 'assets/sanguine-large.jpg';
-import sanguinePlaceholder from 'assets/sanguine-placeholder.jpg';
-import sanguine from 'assets/sanguine.jpg';
+import mbtavizLarge from 'assets/mbtaviz-large.jpg';
+import mbtavizPlaceholder from 'assets/mbtaviz-placeholder.jpg';
+import mbtaviz from 'assets/mbtaviz.jpg';
 import weaveTextureLarge from 'assets/weave-dark-large.jpg';
 import weaveTexturePlaceholder from 'assets/weave-dark-placeholder.jpg';
 import weaveTexture from 'assets/weave-dark.jpg';
@@ -21,7 +21,7 @@ import { ProjectSummary } from 'layouts/Home/ProjectSummary';
 import { useEffect, useRef, useState } from 'react';
 import styles from './Home.module.css';
 
-const disciplines = ['Back End Developer', 'Blockchain Developer', 'Three.js Developer'];
+const disciplines = ['Back End Developer', 'Data Visualizatoin', 'WebGL Developer'];
 
 export const Home = () => {
   const [visibleSections, setVisibleSections] = useState([]);
@@ -131,17 +131,17 @@ export const Home = () => {
         sectionRef={projectThree}
         visible={visibleSections.includes(projectThree.current)}
         index={3}
-        title="Sanguine"
-        description="Sanguine is a London-based full-service healthcare advertising agency."
+        title="Mbtaviz"
+        description="Mbtaviz is a London-based full-service healthcare advertising agency."
         buttonText="View project"
-        buttonLink="/projects/sanguine"
+        buttonLink="/projects/mbtaviz"
         model={{
           type: 'laptop',
-          alt: 'Sanguine',
+          alt: 'Mbtaviz',
           textures: [
             {
-              srcSet: [sanguine, sanguineLarge],
-              placeholder: sanguinePlaceholder,
+              srcSet: [mbtaviz, mbtavizLarge],
+              placeholder: mbtavizPlaceholder,
             },
           ],
         }}

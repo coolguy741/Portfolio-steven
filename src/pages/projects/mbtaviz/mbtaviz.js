@@ -1,9 +1,9 @@
 import backgroundSprLarge from 'assets/spr-background-large.jpg';
 import backgroundSprPlaceholder from 'assets/spr-background-placeholder.jpg';
 import backgroundSpr from 'assets/spr-background.jpg';
-import imageSanguineDarkLarge from 'assets/sanguine-large.jpg';
-import imageSanguineDarkPlaceholder from 'assets/sanguine-placeholder.jpg';
-import imageSanguineDark from 'assets/sanguine.jpg';
+import imageMbtavizDarkLarge from 'assets/mbtaviz-large.jpg';
+import imageMbtavizDarkPlaceholder from 'assets/mbtaviz-placeholder.jpg';
+import imageMbtavizDark from 'assets/mbtaviz.jpg';
 import { Footer } from 'components/Footer';
 import { Meta } from 'components/Meta';
 import { useTheme } from 'components/ThemeProvider';
@@ -17,19 +17,19 @@ import {
 } from 'layouts/Project';
 import { Fragment } from 'react';
 import { media } from 'utils/style';
-import styles from './Sanguine.module.css';
+import styles from './Mbtaviz.module.css';
 
 const title = 'UX/UI Designer / Full Stack Developer';
 const description =
-  'I worked as UX/UI designer and front end developer on development of Sanguine development. I developed the brainSimulation website with three.js';
+  'I built this to help people in Boston better understand the trains, how people use the trains, and how the people and trains interact with each other. It was very helpful to analyze the train system.';
 const roles = [
-  'UX / UI Designer',
+  'Data Visualization Specialist',
   'Front End Development',
   'Back End Development',
-  'Web 3D Development',
+  'Python Developer',
 ];
 
-export const Sanguine = () => {
+export const Mbtaviz = () => {
   const { themeId } = useTheme();
 
   const isDark = themeId === 'dark';
@@ -47,7 +47,7 @@ export const Sanguine = () => {
         <ProjectHeader
           title={title}
           description={description}
-          url="https://sanguineagency.com/"
+          url="http://mbtaviz.github.io./"
           roles={roles}
         />
         <ProjectSection padding="top">
@@ -55,8 +55,8 @@ export const Sanguine = () => {
             <ProjectImage
               raised
               key={themeId}
-              srcSet={[imageSanguineDark, imageSanguineDarkLarge]}
-              placeholder={imageSanguineDarkPlaceholder}
+              srcSet={[imageMbtavizDark, imageMbtavizDarkLarge]}
+              placeholder={imageMbtavizDarkPlaceholder}
               sizes={`(max-width: ${media.mobile}px) 100vw, (max-width: ${media.tablet}px) 800px, 1000px`}
               alt="The aero lesson builder app dragging an audio component into a screen about plant cells."
             />
