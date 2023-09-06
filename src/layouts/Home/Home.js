@@ -10,9 +10,9 @@ import mbtaviz from 'assets/mbtaviz.jpg';
 import weaveTextureLarge from 'assets/weave-dark-large.jpg';
 import weaveTexturePlaceholder from 'assets/weave-dark-placeholder.jpg';
 import weaveTexture from 'assets/weave-dark.jpg';
-import cryptoRefillsTextureLarge from 'assets/cryptorefills-large.PNG';
-import cryptoRefillsTexturePlaceholder from 'assets/cryptorefills-placeholder.PNG';
-import cryptoRefillsTexture from 'assets/cryptorefills.PNG';
+import viemoTextureLarge from 'assets/viemo-large.jpg';
+import viemoTexturePlaceholder from 'assets/viemo-placeholder.jpg';
+import viemoTexture from 'assets/viemo.jpg';
 import { Footer } from 'components/Footer';
 import { Meta } from 'components/Meta';
 import { Intro } from 'layouts/Home/Intro';
@@ -21,7 +21,11 @@ import { ProjectSummary } from 'layouts/Home/ProjectSummary';
 import { useEffect, useRef, useState } from 'react';
 import styles from './Home.module.css';
 
-const disciplines = ['Back End Developer', 'Data Visualizatoin', 'WebGL Developer'];
+const disciplines = [
+  'Back End Developer',
+  'Data Visualization Specialist',
+  'WebGL Developer',
+];
 
 export const Home = () => {
   const [visibleSections, setVisibleSections] = useState([]);
@@ -151,17 +155,17 @@ export const Home = () => {
         sectionRef={projectFour}
         visible={visibleSections.includes(projectFour.current)}
         index={4}
-        title="CryptoRefills"
-        description="CryptoRefills is a platform that allows users to buy prepaid mobile phone top-ups, game credits, and other digital products using cryptocurrency"
+        title="Viemo"
+        description="All-in-one video hosting, creating, live streaming, marketing, and communications tools make Vimeo the most powerful video platform for business."
         buttonText="View website"
-        buttonLink="/projects/cryptoRefills"
+        buttonLink="/projects/viemo"
         model={{
           type: 'laptop',
-          alt: 'CryptoRefills',
+          alt: 'Viemo',
           textures: [
             {
-              srcSet: [cryptoRefillsTexture, cryptoRefillsTextureLarge],
-              placeholder: cryptoRefillsTexturePlaceholder,
+              srcSet: [viemoTexture, viemoTextureLarge],
+              placeholder: viemoTexturePlaceholder,
             },
           ],
         }}

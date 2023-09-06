@@ -1,9 +1,9 @@
 import backgroundSprLarge from 'assets/spr-background-large.jpg';
 import backgroundSprPlaceholder from 'assets/spr-background-placeholder.jpg';
 import backgroundSpr from 'assets/spr-background.jpg';
-import imageCryptoRefillsPlaceholder from 'assets/cryptorefills-placeholder.PNG';
-import imageCryptoRefillsLarge from 'assets/cryptorefills-large.PNG';
-import imageCryptoRefills from 'assets/cryptorefills.PNG';
+import imageViemoPlaceholder from 'assets/viemo-placeholder.jpg';
+import imageViemoLarge from 'assets/viemo-large.jpg';
+import imageViemo from 'assets/viemo.jpg';
 import { Footer } from 'components/Footer';
 import { Meta } from 'components/Meta';
 import { useTheme } from 'components/ThemeProvider';
@@ -17,14 +17,14 @@ import {
 } from 'layouts/Project';
 import { Fragment } from 'react';
 import { media } from 'utils/style';
-import styles from './CryptoRefills.module.css';
+import styles from './Viemo.module.css';
 
 const title = 'Front End / Blockchain Developer';
 const description =
-  'I implemented the website design using Angular.ja and contributed by writing core 3 Smart Contracts in Solidity.';
-const roles = ['Front End Developer', 'Web Designer', 'Blockchain Development'];
+  'I updated and maintained this website. I mostly focused on front end, however sometimes did good work on back end.';
+const roles = ['Front End Developer', 'Back End Developer'];
 
-export const CryptoRefills = () => {
+export const Viemo = () => {
   const { themeId } = useTheme();
 
   const isDark = themeId === 'dark';
@@ -42,7 +42,7 @@ export const CryptoRefills = () => {
         <ProjectHeader
           title={title}
           description={description}
-          url="https://www.cryptorefills.com/"
+          url="https://viemo.com/"
           roles={roles}
         />
         <ProjectSection padding="top">
@@ -50,8 +50,8 @@ export const CryptoRefills = () => {
             <ProjectImage
               raised
               key={themeId}
-              srcSet={[imageCryptoRefills, imageCryptoRefillsLarge]}
-              placeholder={imageCryptoRefillsPlaceholder}
+              srcSet={[imageViemo, imageViemoLarge]}
+              placeholder={imageViemoPlaceholder}
               sizes={`(max-width: ${media.mobile}px) 100vw, (max-width: ${media.tablet}px) 800px, 1000px`}
               alt="The aero lesson builder app dragging an audio component into a screen about plant cells."
             />
