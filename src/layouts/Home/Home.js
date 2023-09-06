@@ -132,7 +132,7 @@ export const Home = () => {
         visible={visibleSections.includes(projectThree.current)}
         index={3}
         title="Mbtaviz"
-        description="Mbtaviz is a London-based full-service healthcare advertising agency."
+        description="Visualized MBTA Data. Boston’s Massachusetts Bay Transit Authority (MBTA) operates the 4th busiest subway system in the U.S. after New York, Washington, and Chicago."
         buttonText="View project"
         buttonLink="/projects/mbtaviz"
         model={{
