@@ -47,7 +47,7 @@ export const Mbtaviz = () => {
         <ProjectHeader
           title={title}
           description={description}
-          url="http://mbtaviz.github.io./"
+          url="https://coolguy741.github.io/D3.js-data-visualization/"
           roles={roles}
         />
         <ProjectSection padding="top">
